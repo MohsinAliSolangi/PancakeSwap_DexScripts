@@ -53,24 +53,24 @@ module.exports = {
       chainId: 1337,
       gasPrice: 225000000000,
       forking: {
-        // url: 'https://eth-mainnet.g.alchemy.com/v2/hmgNbqVFAngktTuwmAB2KceU06IJx-Fh',
-           url: `https://bsc-dataseed1.binance.org/`,
+         url: 'https://eth-mainnet.g.alchemy.com/v2/hmgNbqVFAngktTuwmAB2KceU06IJx-Fh',
+        //url: `https://bsc-dataseed1.binance.org/`,
       },
     },
-    goerli: {
-      url: `https://eth-goerli.g.alchemy.com/v2/${process.env.ALCHEMY_API}`,
-      accounts: [`0x${process.env.privateKey}`],
-    },
-    testnet: {
-      url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
-      chainId: 97,
-      gasPrice: 21000000000,
-      accounts: [`0x${process.env.privateKey}`],
-    },
-    mainnet: {
-      url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_API}`,
-      accounts: [`0x${process.env.privateKey}`],
-    },
+    // goerli: {
+    //   url: `https://eth-goerli.g.alchemy.com/v2/${process.env.ALCHEMY_API}`,
+    //   accounts: [`0x${process.env.privateKey}`],
+    // },
+    // testnet: {
+    //   url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+    //   chainId: 97,
+    //   gasPrice: 21000000000,
+    //   accounts: [`0x${process.env.privateKey}`],
+    // },
+    // mainnet: {
+    //   url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_API}`,
+    //   accounts: [`0x${process.env.privateKey}`],
+    // },
   },
   // contractSizer: {
   //   alphaSort: true,
