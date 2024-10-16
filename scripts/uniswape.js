@@ -43,7 +43,7 @@ const Web3 = require('web3');
 const UniswapV3Factory = require('@uniswap/v3-core/artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json');
 const WETH9 = require('@uniswap/v3-periphery/artifacts/contracts/interfaces/IWETH9.sol/IWETH9.json');
 
-const provider = new Web3.providers.HttpProvider("https://eth-mainnet.g.alchemy.com/v2/hmgNbqVFAngktTuwmAB2KceU06IJx-Fh");
+const provider = new Web3.providers.HttpProvider("https://eth-mainnet.g.alchemy.com/v2/");
 const web3 = new Web3(provider);
 
 const factoryAddress = '0x1F98431c8aD98523631AE4a59f267346ea31F984';
